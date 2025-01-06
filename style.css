@@ -15,7 +15,7 @@ body {
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.nav-fotos .nav-link.active:hover {
     color: #fff;
 }
 
@@ -35,14 +35,18 @@ body {
     color: purple;
 }
 
-.nav-cardapio .nav-link.active,
+.nav-fotos .nav-link.active,
 #fale-conosco button,
-#jdm button {
+#jdm button,
+#classicos button,
+#velozes button,
+#volkswagen button,
+#cacadas button {
     background-color: purple;
     color: #fff;
 }
 
-.nav-cardapio .nav-link:hover {
+.nav-fotos .nav-link:hover {
     color: purple;
 }
 
