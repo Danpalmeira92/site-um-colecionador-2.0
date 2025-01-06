@@ -83,6 +83,13 @@ body {
     border-radius: 8px;
 }
 
+#cacadas .modal-body img {
+    max-width: 55%;
+    height: auto;
+    margin-left: 170px;
+    border-radius: 8px;
+}
+
 .card-img {
     height: 150px;
     object-fit: cover;
