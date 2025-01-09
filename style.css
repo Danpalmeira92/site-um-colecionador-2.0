@@ -69,6 +69,47 @@ body {
     }
 }
 
+/* Ajustes para telas menores que 768px */
+@media (max-width: 768px) {
+    #fotos .row {
+        flex-direction: column;
+    }
+
+
+    /* Ajuste das colunas de imagem */
+    #fotos .col-md-3 {
+        width: 100%; /* Cada imagem ocupa toda a largura */
+        margin-bottom: 20px; /* Espaçamento entre as imagens */
+    }
+
+    #fotos img.card-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Centraliza os textos e botões das imagens */
+    #fotos h5 {
+        text-align: center;
+    }
+
+    #fotos .button-container {
+        text-align: center;
+    }
+}
+
+/* Ajustes para telas menores que 576px (smartphones muito pequenos) */
+@media (max-width: 576px) {
+    #fotos h2 {
+        font-size: 1.5rem; /* Ajusta o tamanho do título */
+    }
+
+    #fotos .button-container button {
+        font-size: 0.9rem; /* Ajusta o tamanho do botão */
+    }
+}
+
+
+
 .carousel-inner img {
     width: 100%;
     height: auto;
