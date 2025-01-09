@@ -111,3 +111,9 @@ body {
     transform: translateY(0);
     opacity: 1;
 }
+
+.no-resize {
+    resize: none;
+    width: 400px;
+    height: 150px;
+}
