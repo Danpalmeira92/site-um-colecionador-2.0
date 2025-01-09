@@ -46,6 +46,30 @@ body {
     color: #fff;
 }
 
+.nav-fotos .nav-link.active:hover,
+#fale-conosco button:hover,
+#jdm button:hover,
+#classicos button:hover,
+#velozes button:hover,
+#volkswagen button:hover,
+#cacadas button:hover {
+    background-color: rgb(169, 8, 169);
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-fotos .nav-link.active:active,
+#fale-conosco button:active,
+#jdm button:active,
+#classicos button:active,
+#velozes button:active,
+#volkswagen button:active,
+#cacadas button:active {
+    background-color: rgb(169, 8, 169);
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 .nav-fotos .nav-link:hover {
     color: purple;
 }
@@ -68,6 +92,7 @@ body {
         height: 280px;
     }
 }
+
 
 /* Ajustes para telas menores que 768px */
 @media (max-width: 768px) {
